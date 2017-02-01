@@ -2,13 +2,21 @@
   "name": "connecting-from-javascript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lookup_people.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjinuk/connecting-from-javascript.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidjinuk/connecting-from-javascript/issues"
+  },
+  "homepage": "https://github.com/davidjinuk/connecting-from-javascript#readme",
   "dependencies": {
-    "pg": "^6.1.2"
+    "knex": "^0.12.6"
   }
 }
