@@ -16,9 +16,6 @@ let firstName = find[2];
 let lastName = find[3];
 let date = find[4];
 
-// select * from famous_people;
-
-
 knex("famous_people")
   .then(function () {
     return knex("famous_people").insert(
